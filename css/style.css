@@ -20,7 +20,7 @@ body {
 }
 
 .navbar-brand {
-    font-family: cursive;
+    /* font-family: cursive; */
     font-size: 10px;
 }
 
@@ -35,7 +35,23 @@ body {
 
 .nav-link:hover {
     font-size: 20px;
-    color: #744ca2 !important;
+    color: rgb(5, 55, 121) !important;
+}
+
+.banner {
+    color: white !important;
+    background-color: rgb(5, 55, 121);
+}
+
+.banner h1 {
+    font-size: 50px;
+    font-family: 'Lobester', cursive;
+}
+
+.banner-icon {
+    color: white;
+    font-size: 25px;
+    margin: 100px 20px 20px 20px;
 }
 
 img {
@@ -52,11 +68,20 @@ p {
 }
 
 .my-btn {
-    border: 2px solid #744ca2;
+    color: rgb(5, 55, 121) !important;
+    border: 2px solid rgb(5, 55, 121) !important;
     border-radius: 5px;
 }
 
 .my-btn:hover {
     color: white !important;
-    background-color: #744ca2;
+    background-color: rgb(5, 55, 121);
+}
+
+.footer p {
+    margin: auto;
+}
+
+.footer span {
+    color: rgb(5, 55, 121);
 }
