@@ -45,7 +45,13 @@ body {
 
 .banner h1 {
     font-size: 50px;
-    font-family: 'Lobester', cursive;
+    font-family: 'Poppins', sans-serif;
+    line-height: 80px;
+    /* font-family: 'Lobester', cursive; */
+}
+
+.banner h1 span {
+    /* font-family: 'Lobster'; */
 }
 
 .banner-icon {
@@ -60,7 +66,7 @@ img {
 
 p {
     color: dimgray;
-    text-align: ;
+    text-align: justify;
 }
 
 .my-p {
@@ -76,6 +82,30 @@ p {
 .my-btn:hover {
     color: white !important;
     background-color: rgb(5, 55, 121);
+}
+
+.contact {
+    color: rgb(5, 55, 121);
+    background-color: #deeffc;
+}
+
+.contact h2 {
+    font-family: 'Lobster';
+}
+
+.contact .fa-solid,
+.contact a {
+    color: rgb(5, 55, 121) !important;
+}
+
+.contact a:hover {
+    text-decoration: none;
+}
+
+.contact-icon {
+    color: rgb(5, 55, 121);
+    font-size: 25px;
+    margin: 100px 20px 20px 20px;
 }
 
 .footer p {
