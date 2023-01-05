@@ -1,0 +1,29 @@
+.navbar-brand img {
+    float: left;
+    height: 50px;
+    width: 50px;
+}
+
+.navbar-brand {
+    /* font-family: cursive; */
+    font-size: 10px;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+.nav-lg {
+    float: left;
+    font-size: 15px;
+}
+
+.nav-link:hover {
+    font-size: 20px;
+    color: rgb(5, 55, 121) !important;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+}
